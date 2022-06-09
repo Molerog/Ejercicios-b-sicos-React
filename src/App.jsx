@@ -4,7 +4,7 @@ import Data from "./components/Data/Data"
 
 
 function App() {
-  const person = [
+  const persons = [
     {
     id: 1,
     name: 'Germán',
@@ -31,7 +31,7 @@ function App() {
   }
   return(
     <div>     
-        <Person object = {person}/>    
+        <Person object = {persons}/>    
         <Data object = {german} />
     </div>
   )
